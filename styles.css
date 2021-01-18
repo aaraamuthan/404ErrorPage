@@ -41,7 +41,6 @@ body {
 }
 
 .paragraph {
-  width: 381px;
   font-size: 24px;
   letter-spacing: -0.035em;
   margin-bottom: 90px;
@@ -82,7 +81,8 @@ body {
   .paragraph {
     font-size: 18px;
     line-height: 27px;
-    width: 70%;
+    margin-bottom: 45px;
+    width: 90%;
   } 
   footer {
     margin-top: 40px;
@@ -102,5 +102,9 @@ body {
     height: 50px;
     transform: translateX(-50%);
   }
+  .paragraph { width: 65%;}
 }
-@media screen and (min-width: 1200px) { .title { margin-bottom: 120px; } }
+@media screen and (min-width: 1200px) {
+  .title { margin-bottom: 120px; } 
+  .paragraph { width: 381px;}
+}
