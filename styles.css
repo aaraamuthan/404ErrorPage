@@ -93,7 +93,8 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) {  
+@media screen and (min-width: 1025px) {  
+  #wrapper { padding: 2.5rem;}
   .title { margin-bottom: 100px; } 
   footer {
     position: absolute;
@@ -102,7 +103,9 @@ body {
     height: 50px;
     transform: translateX(-50%);
   }
+  
   .paragraph { width: 65%;}
+  .content img { margin-right: 120px; }
 }
 @media screen and (min-width: 1200px) {
   .title { margin-bottom: 120px; } 
